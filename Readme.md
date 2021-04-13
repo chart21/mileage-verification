@@ -1,4 +1,5 @@
 # Mileage Verification - Verify the mileage history of a second-hand car via an Ethereum Blockchain  
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
 
 Tamperproof application for tracking mileage data on an Ethereum Blockchain. To visualize tracked mileage data's validity, results are presented to the application user in an intuitive way with an Android and iOS client.
 
@@ -34,5 +35,16 @@ mileage_verification folder - iOS and Android application source code. If you wa
 
 When buying a second-hand car, it is essential to inspect how many miles the previous owner drove with it. As driven miles result in wear and a higher chance of damaged components [1], mileage record nowadays has a big (up to 40% [1]) influence on the negotiated price of a second-hand car. Currently, a device called odometer tracks mileage in a car. This sensor measures mileage driven and typically moves a pointer to the mileage value to display the mileage near the speed display. However, this pointer can be turned back quickly in a simple physical process. With this simple method, millions of cars worldwide and about 6.5% [1] of sold cars in total are affected by mileage manipulation by turning back the odometer pointer.
 
+## Getting Started
+
+### Backend
+1. Deploy Smart Contract on an Ethereum Blockchain
+
+### Frontend
+1. Insert Blockchain API and contract address in main.dart
+2. Compile the code to an Android or iOS App using [Flutter](https://flutter.dev/docs/get-started/install)
+
 ## References 
 [1] Chris Greener, “Why mileage matters: the importance of mileage on a used car”, Autobebid, 2016
+
+
